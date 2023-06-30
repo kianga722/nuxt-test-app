@@ -1,0 +1,5 @@
+export const useLoading = () => useState('loading', () => false)
+export const useHasSearched = () => useState('hasSearched', () => false)
+export const useSearchInput = () => useState('searchInput', () => '')
+export const useSearchTerm = () => useState('searchTerm', () => '')
+export const useResults = () => useState('results', () => [])
